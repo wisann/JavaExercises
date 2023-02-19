@@ -1,6 +1,6 @@
 # JavaExercises
 
-##English
+## English
 These are a bunch of exercises using Java that will be receveing more and more content over time
 
 ## Português
