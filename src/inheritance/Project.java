@@ -23,19 +23,19 @@ public class Project {
 		System.out.println("Enter the number of products: ");
 		int n = sc.nextInt();
 		for (int i=1;i<=n;i++) {
-			System.out.println("Datos do produto #" + i + ":");
-			System.out.print("Comum, usado, importado (c/u/i)? ");
+			System.out.println("Product data #" + i + ":");
+			System.out.print("Common, used, imported (c/u/i)? ");
 			char type = sc.next().charAt(0);
-			System.out.print("Nome: ");
+			System.out.print("Name: ");
 			sc.nextLine();
 			String name = sc.nextLine();
-			System.out.print("Preco: ");
+			System.out.print("Price: ");
 			double price = sc.nextDouble();
 		if(type == 'c') {
 			list.add(new Product(name, price));
 		}
 		else if (type == 'u') {
-			System.out.print("Data de fabricacao (DD/MM/YYYY): ");
+			System.out.print("Fabrication date (DD/MM/YYYY): ");
 			LocalDate date = LocalDate.parse(sc.next(), DateTimeFormatter.ofPattern("dd/MM/yyyy"));
 			list.add(new UsedProject(name, price, date));
 		}
