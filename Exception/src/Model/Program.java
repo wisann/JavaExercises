@@ -21,7 +21,7 @@ public class Program {
 		
 			Integer number;
 			/**
-			 * verifies if the input is a int number, if it's not the same format, enters in a loop until the user type the correct way.
+			 * verifies if the input is an integer number, if it's not the same format, enters in a loop until the user type the correct way.
 			 */
 			while (true) {
 	            try {
