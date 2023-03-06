@@ -21,40 +21,40 @@ public class Program {
 		
 			Integer number;
 			/**
-			 * verifies if the input is an integer number, if it's not the same format, enters in a loop until the user type the correct way.
+			 * verifies if the input is an integer number, if it's not the same format, enters in a loop until the user types the correct way.
 			 */
 			while (true) {
-	            try {
-	            	System.out.print("Number: ");
-	                number = sc.nextInt();
-	                break;
-	            } catch (java.util.InputMismatchException e) {
-	                System.out.println("Please type your account number");
-	                sc.nextLine(); 
-	            }
-			}
+				try {
+					System.out.print("Number: ");
+					number = sc.nextInt();
+					break;
+			    } 	catch (java.util.InputMismatchException e) {
+					System.out.println("Please type your account number");
+					sc.nextLine(); 
+			    }
+				}
 	        
 			System.out.println("Holder: ");
 			String holder = sc.next();
 			
 			/**
-			 * verifies if the input is a double number, if it's not the same format, enters in a loop until the user type the correct way.
+			 * verifies if the input is a double number, if it's not the same format, enters in a loop until the user types the correct way.
 			 */
 			Double initialBalance;
-			while(true) {
+			while (true) {
 				try {
 					System.out.println("Initial balance: ");
 					initialBalance = sc.nextDouble();
 					break;
 				} catch (java.util.InputMismatchException e) {
-	                System.out.println("Please type your initial balance");
-	                sc.nextLine(); 
+	                		System.out.println("Please type your initial balance");
+	                		sc.nextLine(); 
 			}
 				}
 		
 			Double withdrawLimit;
 			/**
-			 * verifies if the input is a double number, if it's not the same format, enters in a loop until the user type the correct way.
+			 * verifies if the input is a double number, if it's not the same format, enters in a loop until the user typeS the correct way.
 			 */
 			while(true) {
 				try {
@@ -62,8 +62,8 @@ public class Program {
 					withdrawLimit = sc.nextDouble();
 					break;
 				} catch (java.util.InputMismatchException e) {
-	                System.out.println("Please type your withdraw limit");
-	                sc.nextLine(); 
+	                		System.out.println("Please type your withdraw limit");
+	               			sc.nextLine(); 
 			}}
 			
 			
