@@ -5,6 +5,7 @@ public class Medico extends Pessoa {
 	private String crm;
 	private String hospital;
 	private String especialidade;
+	
 	public String getCrm() {
 		return crm;
 	}
