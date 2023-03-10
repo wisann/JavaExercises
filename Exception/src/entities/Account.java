@@ -1,6 +1,6 @@
 package entities;
 
-import entities.exceptions.Exception;
+import entities.exceptions.Exception; 
 
 public class Account {
 	private Integer number; // number of the account
