@@ -4,7 +4,7 @@ public class Paciente extends Pessoa{
 	
 	private String ultimaConsulta;
 	private String prontuario;
-	private String peso;
+	private String peso; 
 	
 	public String getUltimaConsulta() {
 		return ultimaConsulta;
