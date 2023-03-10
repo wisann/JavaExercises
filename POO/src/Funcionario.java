@@ -1,10 +1,11 @@
 import javax.swing.JOptionPane;
-
+ 
 public class Funcionario {
 	
 	private String funcao;
 	private String admissao;
 	private String horaEntrada;
+	
 	public String getFuncao() {
 		return funcao;
 	}
