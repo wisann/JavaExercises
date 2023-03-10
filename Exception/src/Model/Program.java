@@ -2,7 +2,7 @@ package Model;
 
 import java.util.Locale;
 import java.util.Scanner;
-
+ 
 import entities.Account;
 /**
  * this class is where the methods and operations of the account will be executed
