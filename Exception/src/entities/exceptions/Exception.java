@@ -1,4 +1,4 @@
-package entities.exceptions;
+package entities.exceptions; 
 /**
  * this class represents the exceptions of all classes
  * @author wisan
