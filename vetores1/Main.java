@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner (System.in);
-		int n;
+		int n; 
 
 		System.out.println("Quantos numeros voce vai digitar? ");
 		n = sc.nextInt();
