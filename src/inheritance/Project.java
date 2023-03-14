@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance; 
 
 import java.text.ParseException;
 import java.time.LocalDate;
